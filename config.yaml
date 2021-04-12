@@ -1,0 +1,121 @@
+baseURL: "#{hostname}#"
+buildFuture: true
+googleAnalytics: "_"
+languageCode: "en-us"
+theme: "cloud-with-chris"
+title: "KoDa Cast"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menu:
+  # footer:
+    # - name: "Get Involved"
+    #   weight: 1
+    #   url: ""
+    # - name: "Privacy"
+    #   weight: 2
+    #   url: "/privacy-policy"
+    # - name: "Cookies"
+    #   weight: 3
+    #   url: "/cookie-policy"
+  main:
+    - name: "Home"
+      weight: 1
+      url: "/"
+    - name: "About"
+      weight: 2
+      url: "/about"
+    - name: "Episodes"
+      weight: 3
+      url: "/episode"
+    - name: "Blog"
+      weight: 4
+      url: "/Blog"
+    - name: "Talks"
+      weight: 5
+      url: "/talk"
+    - name: "Guests"
+      weight: 6
+      url: "/guest"
+
+module:
+  mounts:
+    - source: "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      target: "assets/js/bootstrap.bundle.min.js"
+    - source: "node_modules/bootstrap/scss"
+      target: "assets/sass/bootstrap"
+    - source: "./node_modules/@fortawesome/fontawesome-free/scss"
+      target: "assets/sass/fontawesome"
+    - source: "./node_modules/@fortawesome/fontawesome-free/webfonts"
+      target: "static/webfonts"
+    - source: content
+      target: content
+    - source: static
+      target: static
+    - source: layouts
+      target: layouts
+    - source: data
+      target: data
+    - source: assets
+      target: assets
+    - source: i18n
+      target: i18n
+    - source: archetypes
+      target: archetypes
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+
+params:
+  about_logo: "/img/cloudwithchrislogo.png"
+  copyright_notice: "Site theme by [Chris Reddington](https://www.christianreddington.co.uk) in 2021. Modified with permission under [MIT license](https://github.com/chrisreddington/cloudwithchris.com/blob/master/LICENSE). Proudly using [Hugo](https://gohugo.io/)."
+  itunes_subscribe: ""
+  spotify_subscribe: ""
+  google_play_subscribe: ""
+  stitcher_subscribe: ""
+  pocketcasts_subscribe: ""
+  description: "Your podcast description here"
+  media_prefix: "https://podcasts.cloudwithchris.com/"
+
+  channels:
+    apple: ""
+    google: ""
+    spotify: ""
+
+  feed:
+    copyright: "Copyright 2021 Author Name" #do not use markdown in this field; it is used in the feed
+    itunes_subtitle: "Your subtitle goes here!" #no markdown or HTML
+    itunes_author: "Author Name" #no markdown or HTML
+    itunes_summary: "Your podcast summary goes here."
+    itunes_owner_name: "Author Name"
+    itunes_owner_email: "author@name.com" #contains the e-mail address that will be used to contact the owner of the Podcast for communication specifically about their Podcast on iTunes. It will not be publicly displayed on iTunes.
+    itunes_image: "" #fqdn to the image art for your podcast
+    itunes_top_category: "Technology"
+    itunes_first_sub_category: "Podcasting"
+    itunes_second_sub_category: "Software How-To"
+    language: "en-us"
+    explicit: "no"
+
+  social:
+    facebook: ""
+    github: "firejuun/kodacast-website"
+    twitter: "DrJuun"
+    twitter_domain: "" # This domain shows in twitter cards as "View on `twitter_domain`"
+    youtube: "Flutter Juun"
+
+privacy:
+  googleAnalytics:
+    anonymizeIP: false
+    disable: false
+    respectDoNotTrack: true
+    useSessionStorage: false
+
+taxonomies:
+  tag: "tags"
+  series: "series"
