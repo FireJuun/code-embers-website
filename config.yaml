@@ -3,7 +3,7 @@ buildFuture: true
 googleAnalytics: "_"
 languageCode: "en-us"
 title: "KoDa Cast"
-theme: "cloud-theme"
+# theme: "cloud-theme"
 
 markup:
   goldmark:
@@ -44,7 +44,7 @@ menu:
 module:
   # used for importing theme directly from Github
   # imports:
-  #   - path: github.com/FireJuun/cloud-theme
+    - path: github.com/FireJuun/cloud-theme
 
   mounts:
     - source: "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
