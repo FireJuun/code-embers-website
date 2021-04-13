@@ -2,7 +2,6 @@ baseURL: "#{hostname}#"
 buildFuture: true
 googleAnalytics: "_"
 languageCode: "en-us"
-theme: "cloud-with-chris"
 title: "KoDa Cast"
 
 markup:
@@ -42,6 +41,9 @@ menu:
       url: "/guest"
 
 module:
+  imports:
+    - path: github.com/FireJuun/cloud-theme
+
   mounts:
     - source: "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
       target: "assets/js/bootstrap.bundle.min.js"
@@ -101,6 +103,9 @@ params:
     itunes_second_sub_category: "Software How-To"
     language: "en-us"
     explicit: "no"
+  
+  keywords:
+  - go here  
 
   social:
     facebook: ""
