@@ -11,16 +11,16 @@ markup:
       unsafe: true
 
 menu:
-  # footer:
-    # - name: "Get Involved"
-    #   weight: 1
-    #   url: ""
-    # - name: "Privacy"
-    #   weight: 2
-    #   url: "/privacy-policy"
-    # - name: "Cookies"
-    #   weight: 3
-    #   url: "/cookie-policy"
+  footer:
+    - name: "Get Involved"
+      weight: 1
+      url: ""
+    - name: "Privacy"
+      weight: 2
+      url: "/privacy-policy"
+    - name: "Cookies"
+      weight: 3
+      url: "/cookie-policy"
   main:
     - name: "Home"
       weight: 1
@@ -79,7 +79,7 @@ outputs:
 params:
   about_logo: "/img/koda-cast-logo-square.png"
   author: "Author"
-  copyright_notice: "Site theme by [Chris Reddington](https://www.christianreddington.co.uk) in 2021. Modified with permission under [MIT license](https://github.com/chrisreddington/cloudwithchris.com/blob/master/LICENSE). Proudly using [Hugo](https://gohugo.io/)."
+  copyright_notice: "Site theme by: [Chris Reddington, 2021](https://www.christianreddington.co.uk). Modified with permission: [MIT license](https://github.com/chrisreddington/cloudwithchris.com/blob/master/LICENSE). Proudly using: [Hugo](https://gohugo.io/)."
   itunes_subscribe: ""
   spotify_subscribe: ""
   google_play_subscribe: ""
