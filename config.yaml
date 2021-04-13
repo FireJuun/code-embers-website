@@ -3,6 +3,7 @@ buildFuture: true
 googleAnalytics: "_"
 languageCode: "en-us"
 title: "KoDa Cast"
+theme: "cloud-theme"
 
 markup:
   goldmark:
@@ -30,19 +31,20 @@ menu:
     - name: "Episodes"
       weight: 3
       url: "/episode"
-    - name: "Blog"
-      weight: 4
-      url: "/Blog"
-    - name: "Talks"
-      weight: 5
-      url: "/talk"
+    # - name: "Blog"
+    #   weight: 4
+    #   url: "/Blog"
+    # - name: "Talks"
+    #   weight: 5
+    #   url: "/talk"
     - name: "Guests"
       weight: 6
       url: "/guest"
 
 module:
-  imports:
-    - path: github.com/FireJuun/cloud-theme
+  # used for importing theme directly from Github
+  # imports:
+  #   - path: github.com/FireJuun/cloud-theme
 
   mounts:
     - source: "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
@@ -75,7 +77,8 @@ outputs:
     - "JSON"
 
 params:
-  about_logo: "/img/cloudwithchrislogo.png"
+  about_logo: "/img/koda-cast-logo-square.png"
+  author: "Author"
   copyright_notice: "Site theme by [Chris Reddington](https://www.christianreddington.co.uk) in 2021. Modified with permission under [MIT license](https://github.com/chrisreddington/cloudwithchris.com/blob/master/LICENSE). Proudly using [Hugo](https://gohugo.io/)."
   itunes_subscribe: ""
   spotify_subscribe: ""
@@ -83,7 +86,9 @@ params:
   stitcher_subscribe: ""
   pocketcasts_subscribe: ""
   description: "Your podcast description here"
+  language_name: "English"
   media_prefix: "https://podcasts.cloudwithchris.com/"
+  ogimage: "/img/koda-cast-logo-square.png"
 
   channels:
     apple: ""
@@ -111,8 +116,8 @@ params:
     facebook: ""
     github: "firejuun/kodacast-website"
     twitter: "DrJuun"
-    twitter_domain: "" # This domain shows in twitter cards as "View on `twitter_domain`"
-    youtube: "Flutter Juun"
+    # twitter_domain: "" # This domain shows in twitter cards as "View on `twitter_domain`"
+    youtube: "FlutterJuun"
 
 privacy:
   googleAnalytics:
