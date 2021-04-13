@@ -43,7 +43,7 @@ menu:
 
 module:
   # used for importing theme directly from Github
-  # imports:
+  imports:
     - path: github.com/FireJuun/cloud-theme
 
   mounts:
