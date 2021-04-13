@@ -37,9 +37,9 @@ menu:
     # - name: "Talks"
     #   weight: 5
     #   url: "/talk"
-    - name: "Guests"
-      weight: 6
-      url: "/guest"
+    # - name: "Guests"
+    #   weight: 6
+    #   url: "/guest"
 
 module:
   # used for importing theme directly from Github
