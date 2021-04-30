@@ -43,14 +43,14 @@ module:
   - path: github.com/FireJuun/cloud-theme
 
   mounts:
-  - source: "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-    target: "assets/js/bootstrap.bundle.min.js"
-  - source: "node_modules/bootstrap/scss"
-    target: "assets/sass/bootstrap"
-  - source: "./node_modules/@fortawesome/fontawesome-free/scss"
-    target: "assets/sass/fontawesome"
-  - source: "./node_modules/@fortawesome/fontawesome-free/webfonts"
-    target: "static/webfonts"
+  # - source: "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+  #   target: "assets/js/bootstrap.bundle.min.js"
+  # - source: "node_modules/bootstrap/scss"
+  #   target: "assets/sass/bootstrap"
+  # - source: "./node_modules/@fortawesome/fontawesome-free/scss"
+  #   target: "assets/sass/fontawesome"
+  # - source: "./node_modules/@fortawesome/fontawesome-free/webfonts"
+  #   target: "static/webfonts"
   - source: content
     target: content
   - source: static
