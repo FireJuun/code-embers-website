@@ -93,7 +93,7 @@ params:
     spotify: "https://open.spotify.com/show/6hJOLr15LeXVimTbgJBO7H"
 
   feed:
-    copyright: "Copyright 2021 John Manning" #do not use markdown in this field; it is used in the feed
+    copyright: "Copyright 2021 John Manning, CC BY-SA 4.0" #do not use markdown in this field; it is used in the feed
     itunes_subtitle: "Medicine, Technology, and Everything in Between" #no markdown or HTML
     itunes_author: "Flutter Juun" #no markdown or HTML
     itunes_summary: "A podcast created by practicing clinical informaticians who love talking about medicine, technology, and everything bordering or in between. Our content is specifically targeted at prospective or early career clinical informaticians...but is intended to be relevant for developers interested in building for healthcare or clinicians who are just curious about how technology can improve their everyday practice. We are constantly revising our content so please let us know if there is anything you want us to talk about!"
