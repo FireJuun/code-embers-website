@@ -2,6 +2,7 @@ buildFuture: true
 googleAnalytics: "_"
 languageCode: "en-us"
 title: "KoDa Cast"
+baseURL: "#{hostname}#"
 # theme: "cloud-theme"
 
 markup:
