@@ -17,9 +17,9 @@ outlines = []
 now_date = ''
 
 for line in lines:
-    if not found and line.startswith('date'):
+    if not found and line.startswith('Date'):
         now_date = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
-        line = 'date: ' + now_date + '\n'
+        line = 'Date: ' + now_date + '\n'
         found = True
 
     outlines.append(line)

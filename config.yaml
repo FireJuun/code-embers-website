@@ -3,7 +3,7 @@ buildFuture: true
 googleAnalytics: "_"
 languageCode: "en-us"
 title: "KoDa Cast"
-# theme: "cloud-theme"
+theme: "cloud-theme"
 
 markup:
   goldmark:
@@ -31,21 +31,19 @@ menu:
     - name: "Episodes"
       weight: 3
       url: "/episode"
-    # - name: "Blog"
-    #   weight: 4
-    #   url: "/Blog"
-    # - name: "Talks"
-    #   weight: 5
-    #   url: "/talk"
+    - name: "Hosts"
+      weight: 4
+      url: "/host"
     # - name: "Guests"
-    #   weight: 6
+    #   weight: 5
     #   url: "/guest"
 
 module:
   # used for importing theme directly from Github
   imports:
     - path: github.com/FireJuun/cloud-theme
-      disable: false
+      disable: true
+      # disable: false
 
   mounts:
     - source: "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
@@ -129,4 +127,4 @@ privacy:
 
 taxonomies:
   tag: "tags"
-  series: "series"
+  # series: "series"
