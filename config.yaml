@@ -78,7 +78,7 @@ params:
   author: "John Manning"
   copyright_notice: "Site theme by: [Chris Reddington, 2021](https://www.christianreddington.co.uk). Modified with permission: [MIT license](https://github.com/chrisreddington/cloudwithchris.com/blob/master/LICENSE). Proudly using: [Hugo](https://gohugo.io/)."
   itunes_subscribe: ""
-  spotify_subscribe: ""
+  spotify_subscribe: "https://open.spotify.com/show/6hJOLr15LeXVimTbgJBO7H"
   google_play_subscribe: ""
   stitcher_subscribe: ""
   pocketcasts_subscribe: ""
@@ -90,7 +90,7 @@ params:
   channels:
     apple: ""
     google: ""
-    spotify: ""
+    spotify: "https://open.spotify.com/show/6hJOLr15LeXVimTbgJBO7H"
 
   feed:
     copyright: "Copyright 2021 John Manning" #do not use markdown in this field; it is used in the feed
@@ -100,9 +100,9 @@ params:
     itunes_owner_name: "John Manning"
     itunes_owner_email: "flutter.juun@gmail.com" #contains the e-mail address that will be used to contact the owner of the Podcast for communication specifically about their Podcast on iTunes. It will not be publicly displayed on iTunes.
     itunes_image: "https://kodacast.com/img/koda-cast-logo-square.png" #fqdn to the image art for your podcast
-    itunes_top_category: "Technology"
-    itunes_first_sub_category: "Podcasting"
-    itunes_second_sub_category: "Software How-To"
+    itunes_top_category: "Medicine"
+    itunes_first_sub_category: "Technology"
+    itunes_second_sub_category: "Careers"
     language: "en-us"
     explicit: "no"
   
