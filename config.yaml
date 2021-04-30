@@ -1,9 +1,8 @@
-baseURL: "#{hostname}#"
 buildFuture: true
 googleAnalytics: "_"
 languageCode: "en-us"
 title: "KoDa Cast"
-theme: "cloud-theme"
+# theme: "cloud-theme"
 
 markup:
   goldmark:
