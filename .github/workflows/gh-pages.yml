@@ -43,4 +43,4 @@ jobs:
           external_repository: FireJuun/kodacast.com
           publish_branch: main  # default: gh-pages
           publish_dir: ./public
-          # cname: kodacast.com
+          cname: kodacast.com
