@@ -41,8 +41,7 @@ menu:
 module:
   # used for importing theme directly from Github
   imports:
-    - path: github.com/FireJuun/cloud-theme
-      disable: false
+  - path: github.com/FireJuun/cloud-theme
 
   mounts:
     - source: "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
