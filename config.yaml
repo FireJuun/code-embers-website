@@ -80,9 +80,9 @@ params:
   itunes_subscribe: ""
   spotify_subscribe: "https://open.spotify.com/show/6hJOLr15LeXVimTbgJBO7H"
   google_play_subscribe: ""
-  stitcher_subscribe: ""
-  pocketcasts_subscribe: ""
-  description: "Your podcast description here"
+  stitcher_subscribe: "https://www.stitcher.com/s?fid=628975"
+  pocketcasts_subscribe: "https://pca.st/cgnduz1l"
+  description: "A podcast created by practicing clinical informaticians who love talking about medicine, technology, and everything bordering or in between. Our content is specifically targeted at prospective or early career clinical informaticians...but is intended to be relevant for developers interested in building for healthcare or clinicians who are just curious about how technology can improve their everyday practice. We are constantly revising our content so please let us know if there is anything you want us to talk about!"
   language_name: "English"
   media_prefix: "https://podcasts.cloudwithchris.com/"
   ogimage: "/img/koda-cast-logo-square.png"
@@ -107,7 +107,40 @@ params:
     explicit: "no"
   
   keywords:
-  - go here  
+  - koi pond
+  - koi ponds
+  - data lakes
+  - koi pond elevator pitch
+  - clinical informatics
+  - clinical informatics fellowship
+  - ci fellowship
+  - informatics fellowship
+  - medical informatics
+  - health informatics
+  - health technology
+  - innovation
+  - knowledge operations innovation
+  - health tech
+  - informatician
+  - informaticist
+  - physician informatician
+  - physician informaticist
+  - fellowship
+  - healthcare data
+  - entrepreneurship
+  - interoperability
+  - FHIR-FLI
+  - FHIR
+  - fast healthcare interoperability resources
+  - ACIF
+  - AMIA's Clinical Informatics Fellows
+  - AMIA
+  - American Medical Informatics Association
+  - PINA
+  - Physicians in AMIA
+  - flutter juun
+  - embers
+
 
   social:
     facebook: ""
