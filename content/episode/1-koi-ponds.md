@@ -6,16 +6,16 @@ Title: Ep 1, Koi Ponds
 categories:
 - People
 episode: "1"
-image: img/koda-cast-logo.png
+image: img/episodes/1-koi-pond/pexels-laura-porter-5014977.jpeg
 explicit: "no"
 hosts:
 - johnmanning
 - mikewang
 images:
 - img/koda-cast-logo.png
-podcast_bytes: "53415936"
-podcast_duration: "55:42.000"
-podcast_file: 25 - A conversation on mental health.mp3
+podcast_bytes: "13516739"
+podcast_duration: "37:26.000"
+podcast_file: 1-KoiPonds.mp3
 tags:
 - KOI Pond
 - Education

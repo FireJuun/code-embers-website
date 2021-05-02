@@ -1,5 +1,5 @@
-module kodacast-website
+module codeembers-website
 
 go 1.16
 
-require github.com/FireJuun/cloud-theme v0.0.0-20210430145639-6e51389e9a3d // indirect
+require github.com/FireJuun/cloud-theme v0.0.0-20210502141412-b251b53b5415 // indirect

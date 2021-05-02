@@ -42,7 +42,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: FireJuun/kodacast.com
+          external_repository: FireJuun/codeembers.com
           publish_branch: main  # default: gh-pages
           publish_dir: ./public
-          cname: kodacast.com
+          # cname: codeembers.com

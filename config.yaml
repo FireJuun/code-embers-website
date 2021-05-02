@@ -1,9 +1,9 @@
 buildFuture: true
 googleAnalytics: "G-XSBR4QLZQR"
 languageCode: "en-us"
-title: "KoDa Cast"
+title: "Code Embers"
+baseUrl: https://codeembers.com/
 # theme: "cloud-theme"
-baseUrl: https://kodacast.com/
 
 markup:
   goldmark:
@@ -99,7 +99,7 @@ params:
     itunes_summary: "A podcast created by practicing clinical informaticians who love talking about medicine, technology, and everything bordering or in between. Our content is specifically targeted at prospective or early career clinical informaticians...but is intended to be relevant for developers interested in building for healthcare or clinicians who are just curious about how technology can improve their everyday practice. We are constantly revising our content so please let us know if there is anything you want us to talk about!"
     itunes_owner_name: "Flutter Juun"
     itunes_owner_email: "flutter.juun@gmail.com" #contains the e-mail address that will be used to contact the owner of the Podcast for communication specifically about their Podcast on iTunes. It will not be publicly displayed on iTunes.
-    itunes_image: "https://kodacast.com/img/koda-cast-logo-square.png" #fqdn to the image art for your podcast
+    itunes_image: "https://codeembers.com/img/code-embers-logo-square.png" #fqdn to the image art for your podcast
     itunes_top_category: "Medicine"
     itunes_first_sub_category: "Technology"
     itunes_second_sub_category: "Careers"
@@ -107,6 +107,8 @@ params:
     explicit: "no"
   
   keywords:
+  - code embers
+  - codeembers
   - koi pond
   - koi ponds
   - data lakes
@@ -144,7 +146,7 @@ params:
 
   social:
     facebook: ""
-    github: "firejuun/kodacast-website"
+    github: "firejuun/code-embers-website"
     twitter: "DrJuun"
     # twitter_domain: "" # This domain shows in twitter cards as "View on `twitter_domain`"
     youtube: "FlutterJuun"

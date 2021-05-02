@@ -1,4 +1,4 @@
-# kodacast-website
+# code-embers-website
 
 Version control for the KoDa Cast website, which is hosted via Github Pages.
 
@@ -19,8 +19,8 @@ brew update hugo go npm
 In a terminal, with Hugo installed, run
 
 ```terminal
-hugo new site kodacast-website
-cd kodacast-website
+hugo new site code-embers-website
+cd code-embers-website
 ```
 
 To create a new site and navigate that folder
@@ -63,10 +63,10 @@ git add .gitattributes
 
 First, check to make sure that your version of Hugo has the 'extended' tag on it when you run `hugo version`. If not, you may need to install this manually instead of via a package manager (such as Homebrew).
 
-You need to initialize Go within the root directory of your repo. The `kodacast-website` portion can be named whatever you want.
+You need to initialize Go within the root directory of your repo. The `code-embers-website` portion can be named whatever you want.
 
 ```terminal
-hugo mod init kodacast-website
+hugo mod init code-embers-website
 ```
 
 Running `hugo serve` still gave me errors at this point, providing the message
@@ -84,8 +84,7 @@ Error: Error building site: TOCSS: failed to transform "sass/main.scss" (text/x-
 This is because I needed to install bootstrap and fontawesome manually via npm. I did this via
 
 ```terminal
-npm install bootstrap
-npm install --save @fortawesome/fontawesome-free
+npm install bootstrap @fortawesome/fontawesome-free
 ```
 
 Finally, I am now able to run
