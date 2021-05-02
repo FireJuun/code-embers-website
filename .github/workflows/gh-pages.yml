@@ -45,4 +45,4 @@ jobs:
           external_repository: FireJuun/codeembers.com
           publish_branch: main  # default: gh-pages
           publish_dir: ./public
-          # cname: codeembers.com
+          cname: codeembers.com
