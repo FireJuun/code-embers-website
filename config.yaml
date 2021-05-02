@@ -78,19 +78,19 @@ params:
   author: "John Manning"
   copyright_notice: "Site theme by: [Chris Reddington, 2021](https://www.christianreddington.co.uk). Modified with permission: [MIT license](https://github.com/chrisreddington/cloudwithchris.com/blob/master/LICENSE). Proudly using: [Hugo](https://gohugo.io/)."
   itunes_subscribe: ""
-  spotify_subscribe: "https://open.spotify.com/show/6hJOLr15LeXVimTbgJBO7H"
+  spotify_subscribe: ""
   google_play_subscribe: ""
-  stitcher_subscribe: "https://www.stitcher.com/s?fid=628975"
-  pocketcasts_subscribe: "https://pca.st/cgnduz1l"
+  stitcher_subscribe: ""
+  pocketcasts_subscribe: ""
   description: "A podcast created by practicing clinical informaticians who love talking about medicine, technology, and everything bordering or in between. Our content is specifically targeted at prospective or early career clinical informaticians...but is intended to be relevant for developers interested in building for healthcare or clinicians who are just curious about how technology can improve their everyday practice. We are constantly revising our content so please let us know if there is anything you want us to talk about!"
   language_name: "English"
-  media_prefix: "https://podcasts.cloudwithchris.com/"
+  media_prefix: "https://podcasts.codeembers.com/"
   ogimage: "/img/code-embers-logo-square.png"
 
   channels:
     apple: ""
     google: ""
-    spotify: "https://open.spotify.com/show/6hJOLr15LeXVimTbgJBO7H"
+    spotify: ""
 
   feed:
     copyright: "Copyright 2021 John Manning, CC BY-SA 4.0" #do not use markdown in this field; it is used in the feed
