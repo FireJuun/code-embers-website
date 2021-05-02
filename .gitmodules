@@ -3,9 +3,3 @@
 	url = https://github.com/FireJuun/cloud-theme.git
 	branch = master
 	ignore = dirty
-
-[submodule "public"]
-	path = public
-	url = https://github.com/FireJuun/kodacast.com.git
-	branch = main
-	ignore = dirty

@@ -4,9 +4,6 @@
 # Hugo resources generation directory
 /resources
 
-# default theme (to replace w/ module)
-# /themes
-
 ## OS Files
 # Windows
 Thumbs.db
