@@ -1,3 +1,4 @@
 [submodule "themes/cloud-theme"]
 	path = themes/cloud-theme
 	url = https://github.com/FireJuun/cloud-theme.git
+	branch = master
