@@ -74,7 +74,7 @@ outputs:
     - "JSON"
 
 params:
-  about_logo: "/img/koda-cast-logo-square.png"
+  about_logo: "/img/code-embers-logo-square.png"
   author: "John Manning"
   copyright_notice: "Site theme by: [Chris Reddington, 2021](https://www.christianreddington.co.uk). Modified with permission: [MIT license](https://github.com/chrisreddington/cloudwithchris.com/blob/master/LICENSE). Proudly using: [Hugo](https://gohugo.io/)."
   itunes_subscribe: ""
@@ -85,7 +85,7 @@ params:
   description: "A podcast created by practicing clinical informaticians who love talking about medicine, technology, and everything bordering or in between. Our content is specifically targeted at prospective or early career clinical informaticians...but is intended to be relevant for developers interested in building for healthcare or clinicians who are just curious about how technology can improve their everyday practice. We are constantly revising our content so please let us know if there is anything you want us to talk about!"
   language_name: "English"
   media_prefix: "https://podcasts.cloudwithchris.com/"
-  ogimage: "/img/koda-cast-logo-square.png"
+  ogimage: "/img/code-embers-logo-square.png"
 
   channels:
     apple: ""

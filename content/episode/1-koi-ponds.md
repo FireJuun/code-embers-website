@@ -1,7 +1,7 @@
 ---
 Date: 2021-04-29T14:26:28Z
 PublishDate: 2021-04-29T14:26:28Z
-Description: KOI Ponds - Introduction to the KoDa Cast health informatics podcast, including discussions on the KOI Pond, on the value of the physician informatician, and jankiness scales.
+Description: KOI Ponds - Introduction to the Code Embers health informatics podcast, including discussions on the KOI Pond, on the value of the physician informatician, and jankiness scales.
 Title: Ep 1, Koi Ponds
 categories:
 - People
@@ -12,7 +12,7 @@ hosts:
 - johnmanning
 - mikewang
 images:
-- img/koda-cast-logo.png
+- img/code-embers-logo-square.png
 podcast_bytes: "13516739"
 podcast_duration: "37:26.000"
 podcast_file: 1-KoiPonds.mp3
@@ -21,4 +21,4 @@ tags:
 - Education
 youtube: 0IZv-tWF9cM
 ---
-KOI Ponds - Introduction to the KoDa Cast health informatics podcast, including discussions on the KOI Pond, on the value of the physician informatician, and jankiness scales.
+KOI Ponds - Introduction to the Code Embers health informatics podcast, including discussions on the KOI Pond, on the value of the physician informatician, and jankiness scales.

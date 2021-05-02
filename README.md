@@ -1,6 +1,6 @@
 # code-embers-website
 
-Version control for the KoDa Cast website, which is hosted via Github Pages.
+Version control for the Code Embers website, which is hosted via Github Pages.
 
 This website utilizes [Hugo](https://gohugo.io/) as its primary framework and either [Castanet](https://github.com/mattstratton/castanet) or [Cloud with Chris](https://github.com/chrisreddington/cloudwithchris.com) as inspiration for its primary architecture and theme. The exact decision will be made based on theme licensing.
 
