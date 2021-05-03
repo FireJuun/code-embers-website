@@ -45,5 +45,5 @@ jobs:
       uses: google-github-actions/upload-cloud-storage@main
       with:
         credentials: ${{ secrets.GCP_CREDENTIALS }}
-        path: podcast_audio/
+        path: podcast_audio/*
         destination: ${{ secrets.GCS_BUCKET }}
