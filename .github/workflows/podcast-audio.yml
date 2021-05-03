@@ -1,0 +1,49 @@
+# spec: only work with podcast files that are different from prior commit
+# https://www.cloudwithchris.com/blog/git-lfs-for-podcast-audio/
+#
+# spec: connect github actions to google cloud storage
+# https://sha.ws/automatic-upload-to-google-cloud-storage-with-github-actions.html
+#
+# spec: use Service Account directly rather than all of GGloud
+# https://github.com/google-github-actions/upload-cloud-storage
+# note that it may be better in the long run to follow these steps as well:
+# https://cloud.google.com/iam/docs/creating-short-lived-service-account-credentials
+
+name: "Podcast Audio Upload"
+on: 
+  push:
+      branches:
+        - main
+      paths:
+        - "podcast_audio/**"
+
+jobs:
+  setup-build-deploy:
+    name: Setup, Build, and Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Download Podcast files that are different from prior commit
+      run: |
+        git clone --config lfs.fetchexclude="/podcast_audio" https://github.com/chrisreddington/cloudwithchris.com.git ./
+        fileschanged=$(git diff --name-only HEAD^ HEAD -- '*.mp3')
+        echo "$fileschanged" > files.txt
+        xargs -a files.txt -d'\n' rm
+        git config --unset lfs.fetchexclude
+        git checkout . 
+        cd podcast_audio
+        sed -i -e 's/podcast_audio\///g' ../files.txt
+        for i in *; do
+            if ! grep -qxFe "$i" ../files.txt
+            then
+                echo "Deleting: $i"
+                rm "$i"
+            fi
+        done
+
+    - name: Upload all new files to GCS
+      uses: google-github-actions/upload-cloud-storage@main
+      with:
+        credentials: ${{ secrets.GCP_CREDENTIALS }}
+        path: .
+        destination: ${{ secrets.GCS_BUCKET }}
