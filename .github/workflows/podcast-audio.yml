@@ -46,4 +46,4 @@ jobs:
       with:
         credentials: ${{ secrets.GCP_CREDENTIALS }}
         path: podcast_audio/
-        destination: ${{ secrets.GCS_BUCKET }}/
+        destination: ${{ secrets.GCS_BUCKET }}/.
