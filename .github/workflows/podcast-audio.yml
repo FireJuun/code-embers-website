@@ -25,7 +25,7 @@ jobs:
     steps:
     - name: Download Podcast files that are different from prior commit
       run: |
-        git clone --config lfs.fetchexclude="/podcast_audio" https://github.com/chrisreddington/cloudwithchris.com.git ./
+        git clone --config lfs.fetchexclude="/podcast_audio" https://github.com/firejuun/code-embers-website.git ./
         fileschanged=$(git diff --name-only HEAD^ HEAD -- '*.mp3')
         echo "$fileschanged" > files.txt
         xargs -a files.txt -d'\n' rm
