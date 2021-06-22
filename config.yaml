@@ -147,7 +147,7 @@ params:
   social:
     facebook: ""
     github: "firejuun/code-embers-website"
-    twitter: "DrJuun"
+    twitter: "CodeEmbers"
     # twitter_domain: "" # This domain shows in twitter cards as "View on `twitter_domain`"
     youtube: "FlutterJuun"
 
