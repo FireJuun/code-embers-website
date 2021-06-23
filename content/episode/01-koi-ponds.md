@@ -19,6 +19,6 @@ podcast_file: 01-KoiPonds.mp3
 tags:
 - KOI Pond
 - Education
-youtube: 0IZv-tWF9cM
+youtube: 6I01iWTHtd0
 ---
 KOI Ponds - Introduction to the Code Embers health informatics podcast, including discussions on the KOI Pond, on the value of the physician informatician, and jankiness scales.
