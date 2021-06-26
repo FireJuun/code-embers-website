@@ -79,7 +79,7 @@ params:
   copyright_notice: "Site theme by: [Chris Reddington, 2021](https://www.christianreddington.co.uk). Modified with permission: [MIT license](https://github.com/chrisreddington/cloudwithchris.com/blob/master/LICENSE). Proudly using: [Hugo](https://gohugo.io/)."
   itunes_subscribe: "https://podcasts.apple.com/us/podcast/code-embers/id1573523154"
   spotify_subscribe: "https://open.spotify.com/show/6hJOLr15LeXVimTbgJBO7H"
-  google_play_subscribe: ""
+  google_play_subscribe: "https://podcasts.google.com/feed/aHR0cHM6Ly9jb2RlZW1iZXJzLmNvbS9lcGlzb2RlL2luZGV4LnhtbA"
   stitcher_subscribe: "https://www.stitcher.com/s?fid=628975"
   pocketcasts_subscribe: "https://pca.st/t48ui6yr"
   description: "A podcast created by practicing clinical informaticians who love talking about medicine, technology, and everything bordering or in between. Our content is specifically targeted at prospective or early career clinical informaticians...but is intended to be relevant for developers interested in building for healthcare or clinicians who are just curious about how technology can improve their everyday practice. We are constantly revising our content so please let us know if there is anything you want us to talk about!"
@@ -89,7 +89,7 @@ params:
 
   channels:
     apple: "https://podcasts.apple.com/us/podcast/code-embers/id1573523154"
-    google: ""
+    google: "https://podcasts.google.com/feed/aHR0cHM6Ly9jb2RlZW1iZXJzLmNvbS9lcGlzb2RlL2luZGV4LnhtbA"
     spotify: "https://open.spotify.com/show/6hJOLr15LeXVimTbgJBO7H"
 
   feed:
