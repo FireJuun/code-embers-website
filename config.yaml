@@ -3,7 +3,7 @@ googleAnalytics: "G-XSBR4QLZQR"
 languageCode: "en-us"
 title: "Code Embers"
 baseUrl: https://codeembers.com/
-# theme: "cloud-theme"
+theme: "cloud-theme"
 
 markup:
   goldmark:
@@ -40,8 +40,8 @@ menu:
 
 module:
   # used for importing theme directly from Github
-  imports:
-  - path: github.com/FireJuun/cloud-theme
+  # imports:
+  # - path: github.com/FireJuun/cloud-theme
 
   mounts:
   - source: "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
