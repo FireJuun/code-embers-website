@@ -1,7 +1,7 @@
 ---
 Date: 2021-07-29T13:30:05Z
 PublishDate: 2021-07-29T13:30:05Z
-Description: KOI Ponds - Introduction to the Code Embers health informatics podcast, including discussions on the KOI Pond, on the value of the physician informatician, and jankiness scales.
+Description: In this Code Embers health informatics podcast, we discuss the Microsoft acquisition of Nuance. We cover some classification standards such as Health Level 7®'s Fast Healthcare Interoperability Resources® (FHIR®) and the US Core Data for Interoperability (USCDI), with a larger focus on FHIR®. We also explain "The Curly Braces Problem" and how that relates to informatics.
 Title: Ep 2, On FHIR
 categories:
 - People
