@@ -42,3 +42,5 @@ github.com/FireJuun/cloud-theme v0.0.0-20210902190315-92f08fee0bbc h1:a6zKnQpe2U
 github.com/FireJuun/cloud-theme v0.0.0-20210902190315-92f08fee0bbc/go.mod h1:p6fooOjibKAfDtDDAS0LGf7DS+ZpDMcSmk71rXxj+Zk=
 github.com/FireJuun/cloud-theme v0.0.0-20210902190713-c71e4e1bd807 h1:AK2DRg2RNX1KAHgpnD0LA4DjX63Fbof0Gb3Dni+rGFw=
 github.com/FireJuun/cloud-theme v0.0.0-20210902190713-c71e4e1bd807/go.mod h1:p6fooOjibKAfDtDDAS0LGf7DS+ZpDMcSmk71rXxj+Zk=
+github.com/FireJuun/cloud-theme v0.0.0-20210902190843-df2d3bb7e9af h1:ZyK9iMoHS0tlMd58vS4/ihNWWaQvIfm8RBt8PKycJgk=
+github.com/FireJuun/cloud-theme v0.0.0-20210902190843-df2d3bb7e9af/go.mod h1:p6fooOjibKAfDtDDAS0LGf7DS+ZpDMcSmk71rXxj+Zk=
